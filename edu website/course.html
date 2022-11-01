@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPU UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- for diff font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- this link is for adding icons to website -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"> -->
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+       <h1>Our courses</h1>
+    </section>
+    
+<!-- -------course------ -->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="cousre-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, dolore. Aut ex dolorum maxime
+                harum eos. Nesciunt recusandae dicta id </p>
+
+        </div>
+        <div class="cousre-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, dolore. Aut ex dolorum maxime
+                harum eos. Nesciunt recusandae dicta id </p>
+
+        </div>
+        <div class="cousre-col">
+            <h3>post graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, dolore. Aut ex dolorum maxime
+                harum eos. </p>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- -----facilities------ -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>world Class library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healtly Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+</section>
+
+<!-- --Footer-- -->
+<section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia inventore nulla, magnam voluptatum dolores ex repellendus quae officiis eveniet deleniti non voluptates magni numquam. <br> Enim nobis quod qui nostrum perferendis architecto dignissimos iste hic!</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made with  <i class="fa fa-heart-o"></i> By vishal rakhunde</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- -----javascript for toggle menu -->
+    <script>
+        var navlink = document.getElementById("navlink");
+
+        function showmenu() {
+            navlink.style.right = "0";
+        }
+        function hidemenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
